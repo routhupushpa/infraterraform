@@ -3,6 +3,6 @@ terraform {
     bucket = "my-jenkins-terraform-bucket1"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "hashtecTerraformStatelock	"
+    dynamodb_table = "projectdynamodbtable"
   }
 }
